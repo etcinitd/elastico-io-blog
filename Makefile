@@ -1,12 +1,17 @@
 .PHONY: all generate upload-s3
 
 TAG = v1
+SOURCES=install-docker-windows.md jboss-docker-tutorial.md why-you-need-docker.md
+HTMLS=$(SOURCES:.md=.html)
 
-all: generate
+all: $(SOURCES) generate
 
-generate:
-	markdown install-docker-windows.md | sed 's/<code/<code class="prettyprint"/g' > /tmp/install-docker-windows.html
-	cat header.html /tmp/install-docker-windows.html footer.html > install-docker-windows.html
+generate: $(HTMLS)
+	echo "Done!"
+
+$(HTMLS): %.html: %.md
+	markdown $< | sed 's/<code/<code class="prettyprint"/g' > /tmp/$@
+	cat header.html /tmp/$@ footer.html > $@
 
 upload-s3:
 	echo "Not supported yet!"
