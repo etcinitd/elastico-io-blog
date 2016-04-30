@@ -1,7 +1,7 @@
 .PHONY: all generate upload-s3
 
 TAG = v1
-SOURCES=install-docker-windows.md jboss-docker-tutorial.md why-you-need-docker.md
+SOURCES=install-docker-windows.md jboss-docker-tutorial.md why-you-need-docker.md useful-docker-commands.md
 HTMLS=$(SOURCES:.md=.html)
 
 all: $(SOURCES) generate
