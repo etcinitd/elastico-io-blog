@@ -1,0 +1,7 @@
+  <article>
+  <h2 class="post-title"><a href="{{ .Permalink }}" rel="bookmark" title="Link to {{ .Title }}">{{ .Title }}</a></h2>
+  <span class="post-date">Published {{ .Date.Format "Jan 2, 2006" }}</span>
+  <p>{{ .Summary }}</p>
+  {{ if .Truncated }}<a class="moretag" href="{{ .Permalink }}">Continue reading &#8614;</a>{{ end }}
+  <hr class="divider">
+  </article>

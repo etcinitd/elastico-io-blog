@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Allegiant</title>
+    <link>http://localhost:1313/post/</link>
+    <description>Recent content in Posts on Allegiant</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Allegiant. All Rights Reserved.</copyright>
+    <lastBuildDate>Sun, 22 Nov 2015 10:54:54 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Allegiant Features</title>
+      <link>http://localhost:1313/post/features/</link>
+      <pubDate>Sun, 22 Nov 2015 10:54:54 -0700</pubDate>
+      
+      <guid>http://localhost:1313/post/features/</guid>
+      <description>
+
+&lt;h1 id=&#34;allegiant-a-kick-ass-hugo-theme:e1ec7fcfd5aa4d3ea3e990d9b707a3b4&#34;&gt;Allegiant &amp;ndash; A kick-ass Hugo theme&lt;/h1&gt;
+
+&lt;p&gt;Allegiant has all sorts of cool stuff. You can include a per-post background image by editing the &amp;ldquo;Featured Image&amp;rdquo; section in the post header data.&lt;/p&gt;
+
+&lt;h1 id=&#34;custom-config:e1ec7fcfd5aa4d3ea3e990d9b707a3b4&#34;&gt;Custom Config&lt;/h1&gt;
+
+&lt;p&gt;It&amp;rsquo;s got custom data you can edit in the config.toml file too. Here&amp;rsquo;s a sample:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;baseurl = &amp;quot;yoursitehere.com&amp;quot;
+languageCode = &amp;quot;en-us&amp;quot;
+title = &amp;quot;Allegiant&amp;quot;
+copyright = &amp;quot;&amp;amp;copy; Allegiant. All Rights Reserved.&amp;quot; # Copyright notice. This will be displayed in the footer.
+canonifyurls = true
+
+[params]
+    ga_api_key = &amp;quot;Your Google Analytics tracking id&amp;quot; # Google Analytics API key.
+    avatar = &amp;quot;../../img/avatar.jpg&amp;quot; # Image should be square, and roughly 150px x 150px
+    bio = &amp;quot;Insert your bio here. You should write something really whitty and interesting that nobody is ever going to read or care about. But such is life. I really like the look of having a bio snippet on the blog, though. You may have to adjust some CSS styles depending on how long or short your bio is. I didn&#39;t make it super resillient.&amp;quot;
+    github = &amp;quot;http://github.com/username&amp;quot;
+    twitter = &amp;quot;https://twitter.com/username&amp;quot;
+    linkedin = &amp;quot;https://www.linkedin.com/in/username&amp;quot;
+    footer_1 = &amp;quot;Some text here.&amp;quot;
+    footer_2 = &amp;quot;Some different text here.&amp;quot;
+    footer_3 = &amp;quot;Even more different text here.&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;auto-syntax-highlighting-for-any-language:e1ec7fcfd5aa4d3ea3e990d9b707a3b4&#34;&gt;Auto Syntax Highlighting for any language&lt;/h2&gt;
+
+&lt;p&gt;It&amp;rsquo;s got built in Syntax highlight, too. Just start a block of code with &amp;ldquo;~~~typeyourlanguagehere&amp;rdquo; and then close it with three more squiqlies. If you view the above block of code in a text editor, you&amp;rsquo;ll see what I mean.&lt;/p&gt;
+
+&lt;h2 id=&#34;code-snippets:e1ec7fcfd5aa4d3ea3e990d9b707a3b4&#34;&gt;Code Snippets&lt;/h2&gt;
+
+&lt;p&gt;In case you don&amp;rsquo;t want to do an entire block of code, you can just do a small snippet of code, such as a command to type in, or a key to press by wrapping your text in a span class of &amp;ldquo;smallcode&amp;rdquo;. &lt;span class=&#34;smallcode&#34;&gt;This is what it&amp;rsquo;ll look like.&lt;/span&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;sharing-icons:e1ec7fcfd5aa4d3ea3e990d9b707a3b4&#34;&gt;Sharing Icons&lt;/h2&gt;
+
+&lt;p&gt;Sharing icons are automatically embedded in the post. So that&amp;rsquo;s cool.&lt;/p&gt;
+
+&lt;h2 id=&#34;fast:e1ec7fcfd5aa4d3ea3e990d9b707a3b4&#34;&gt;Fast&lt;/h2&gt;
+
+&lt;p&gt;Gets a &lt;sup&gt;73&lt;/sup&gt;&amp;frasl;&lt;sub&gt;100&lt;/sub&gt; ranking on Google PageSpeed Insights. And that&amp;rsquo;s WITH render-blocking CSS, and no CDN. Fix those things, and you&amp;rsquo;ll hit a &lt;sup&gt;95&lt;/sup&gt;&amp;frasl;&lt;sub&gt;100&lt;/sub&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;more:e1ec7fcfd5aa4d3ea3e990d9b707a3b4&#34;&gt;More&lt;/h2&gt;
+
+&lt;p&gt;There&amp;rsquo;s a lot more this theme can do, and it&amp;rsquo;s really cool, but I&amp;rsquo;m really hungry and going to go eat lunch. So I&amp;rsquo;m going to upload this to GitHub and be done with it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Introducing Allegiant -- A Hugo Theme</title>
+      <link>http://localhost:1313/post/introducing-allegiant-a-hugo-theme/</link>
+      <pubDate>Sat, 21 Nov 2015 18:50:20 -0700</pubDate>
+      
+      <guid>http://localhost:1313/post/introducing-allegiant-a-hugo-theme/</guid>
+      <description>&lt;p&gt;So I made a WordPress Theme. And then I kept going and made a theme for Hugo, too.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/screenshot.png&#34; alt=&#34;Allegiant - Hugo&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Why? Because I&amp;rsquo;m sick of everything else on the internet. And that&amp;rsquo;s not to say that there aren&amp;rsquo;t some great themes out there. There are some truly incredible themes. And they do everything. The problem is, however, that I don&amp;rsquo;t need everything. All I need is a simple page that is aesthetically pleasing, and quick. And that&amp;rsquo;s about it. No frills, no fuss, no crazy configuration options, nothing.&lt;/p&gt;
+
+&lt;p&gt;So many of you might be asking then, &amp;#8220;Bryce, why not just use a static site generator for your blog?&amp;#8221; Good question. Been there, done that. And it was fine. I&amp;rsquo;m definitely a fan of Jekyll. The speed of a static site is great. For the first little while, I missed the features that came with a back-end language (PHP is my backend language of choice, which means WordPress works great for me), and some of the database features too. But of course, those are the benefits of a static site. I quickly was able to cope with some of the losses through the use of third-party commenting systems, like &lt;a href=&#34;https://disqus.com/&#34; target=&#34;_blank&#34;&gt;Disqus&lt;/a&gt;, but then I quickly found that I didn&amp;rsquo;t even care about that. You&amp;rsquo;ll notice that on this site, I&amp;rsquo;ve completely omitted the comment system.&lt;/p&gt;
+
+&lt;p&gt;But the main reason I ditched Jekyll and switched over to Hugo were the painfully slow build times. My blog used to showcase a lot of my photography, and so I probably had around 100 posts total overall, most of which were dedicated posts full of photos. Everytime I made a little, itty-bitty change, it would have to regenerate, and take about 3-5 minutes per generation. That might not sound like a lot, but it would have to regenerate each and every time, regardless of how small of a change I made. And I&amp;rsquo;m one of those &amp;#8220;code-and-check-and-code-and-check-some-more&amp;#8221; type people. I don&amp;rsquo;t have enough confidence in myself to code lines and lines and lines of code before checking my work.&lt;/p&gt;
+
+&lt;p&gt;If you like what you see, you&amp;rsquo;re free to use it. You can &lt;a href=&#34;https://github.com/brycematheson/allegiant&#34; target=&#34;_blank&#34;&gt;head over to my GitHub and grab it off of there&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s decently fast, getting a &lt;sup&gt;73&lt;/sup&gt;&amp;frasl;&lt;sub&gt;100&lt;/sub&gt; on Google Page Speed Insights. I&amp;rsquo;ve fiddled with it, and I was able to get it up to a &lt;sup&gt;95&lt;/sup&gt;&amp;frasl;&lt;sub&gt;100&lt;/sub&gt; on my site by using a CDN and playing with some of the render-blocking CSS in the head. It&amp;rsquo;s also responsive, too.&lt;/p&gt;
+
+&lt;p&gt;So anyway, enough rambling. Here&amp;rsquo;s a cool theme if you want to use it.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
