@@ -1,0 +1,6 @@
+author = "Bryce Matheson"
+description = "A simple, lean blog theme for hugo, designed for my personal blog brycematheson.io, but free to use for whomever."
+license = "MIT"
+name = "allegiant"
+source_repo = "github.com:brycematheson/allegiant.git"
+tags = ["blog", "hugo", "allegiant"]
