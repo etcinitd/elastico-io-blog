@@ -1,16 +1,19 @@
-baseurl = "elastico.io"
-languageCode = "en-us"
+baseurl = "http://elastico.io/"
+languageCode = "fa-ir"
 title = "الستیکو"
-copyright = "&copy; Elastico. All Rights Reserved." # Copyright notice. This will be displayed in the footer.
+copyright = "&copy; کلیه حقوق محفوظ است. بازنشر این مطلب تنها با ذکر آدرس کامل این سایت مجاز است" # Copyright notice. This will be displayed in the footer.
 canonifyurls = true
 
 [params]
-    ga_api_key = "Your Google Analytics tracking id" # Google Analytics API key.
+    ga_api_key = "UA-73618104-1" # Google Analytics API key.
     avatar = "../../img/avatar.jpg" # Image should be square, and roughly 150px x 150px
-    bio = "Insert your bio here. You should write something really whitty and interesting that nobody is ever going to read or care about. But such is life. I really like the look of having a bio snippet on the blog, though. You may have to adjust some CSS styles depending on how long or short your bio is. I didn't make it super resillient."
-    github = "http://github.com/username"
-    twitter = "https://twitter.com/username"
-    linkedin = "https://www.linkedin.com/in/username"
+    #bio = "Insert your bio here."
+    github = "https://github.com/etcinitd/elastico-io-blog"
+    #twitter = "https://twitter.com/username"
+    linkedin = "http://www.linkedin.com/groups/7019646"
     #footer_1 = "Some text here."
     #footer_2 = "Some different text here."
     #footer_3 = "Even more different text here."
+
+[permalinks]
+    blog= "/:section/:filename.html"

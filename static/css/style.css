@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'bmitra';
-    src: url('.../fonts/IRANSansWeb.eot');
-    src: url('.../fonts/IRANSansWeb.woff') format('woff'),
-         url('.../fonts/IRANSansWeb.ttf') format('truetype');
+    src: url('../fonts/IRSansWeb.eot');
+    src: url('../fonts/IRSansWeb.woff') format('woff'),
+         url('../fonts/IRSansWeb.ttf') format('truetype');
          font-weight: normal;
          font-style: normal;
 }
@@ -415,7 +415,8 @@ footer .menu-item a:hover {
     height: 350px;
     width: 50%;
     white-space: nowrap;
-    margin-left: 25%;
+    margin-left: auto;
+    margin-right: auto;
     display: table;
     z-index: 1;
         direction:rtl;
