@@ -1,8 +1,9 @@
-baseurl = "http://elastico.io/"
+baseurl = "http://elastico.io"
 languageCode = "fa-ir"
 title = "الستیکو"
 copyright = "&copy; کلیه حقوق محفوظ است. بازنشر این مطلب تنها با ذکر آدرس کامل این سایت مجاز است" # Copyright notice. This will be displayed in the footer.
 canonifyurls = true
+uglyurls = true
 
 [params]
     ga_api_key = "UA-73618104-1" # Google Analytics API key.
@@ -14,6 +15,3 @@ canonifyurls = true
     #footer_1 = "Some text here."
     #footer_2 = "Some different text here."
     #footer_3 = "Even more different text here."
-
-[permalinks]
-    blog= "/:section/:filename.html"
