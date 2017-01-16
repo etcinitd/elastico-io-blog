@@ -20,10 +20,11 @@
         <div id="site-title"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></div>
         <nav id="mainmenu">
           <ul>
-            <li><a href="{{ .Site.BaseURL }}">Articles</a></li>
+            <li><a href="{{ .Site.BaseURL }}">بلاگ</a></li>
             {{ with .Site.Params.github }}<li><a href="{{ . }}" target="_blank">Github</a></li>{{ end }}
             {{ with .Site.Params.twitter }}<li><a href="{{ . }}" target="_blank">Twitter</a></li>{{ end }}
             {{ with .Site.Params.linkedin }}<li><a href="{{ . }}" target="_blank">LinkedIn</a></li>{{ end }}
+            {{ with .Site.Params.telegram }}<li><a href="{{ . }}" target="_blank">Telegram</a></li>{{ end }}
           </ul>
         </nav>
         <input type="checkbox" id="op"></input>
@@ -34,17 +35,18 @@
           <label for="op"></label>
           <nav id="menu" role="navigation">
             <ul>
-            <li><a href="{{ .Site.BaseURL }}">Articles</a></li>
+            <li><a href="{{ .Site.BaseURL }}">بلاگ</a></li>
             {{ with .Site.Params.github }}<li><a href="{{ . }}" target="_blank">Github</a></li>{{ end }}
             {{ with .Site.Params.twitter }}<li><a href="{{ . }}" target="_blank">Twitter</a></li>{{ end }}
             {{ with .Site.Params.linkedin }}<li><a href="{{ . }}" target="_blank">LinkedIn</a></li>{{ end }}
+            {{ with .Site.Params.telegram }}<li><a href="{{ . }}" target="_blank">Telegram</a></li>{{ end }}
           </ul>
           </nav>
         </div>
         <div class="clearfix"></div>
       </section>
       <div class="post-heading">
-        <h1>{{ if and ($.IsNode) (eq $.Section "") }} Articles {{ else }}
+        <h1>{{ if and ($.IsNode) (eq $.Section "") }} بلاگ الستیکو {{ else }}
         {{ .Title }}
           <div class="share-icons-header">
             <a href="http://www.twitter.com/share?url={{ .Permalink }}" target="_blank">
@@ -78,7 +80,7 @@
                     c36.108,0,54.802,48.738,54.802,80.033c0,7.845-0.862,21.754-10.877,31.768C278.237,286.11,266.498,291.312,255.621,291.34z
                      M256.066,466.177c-46.54,0-76.556-22.171-76.556-53.049s27.846-41.311,37.416-44.787c18.276-6.093,41.755-6.982,45.677-6.982
                     c4.34,0,6.51,0,9.987,0.445c33.076,23.479,47.402,35.218,47.402,57.416C319.992,446.176,297.821,466.177,256.066,466.177z"/>
-                  <polygon points="353.068,317.768 400.164,317.768 400.164,364.836 423.699,364.836 423.699,317.768 470.768,317.768 
+                  <polygon points="353.068,317.768 400.164,317.768 400.164,364.836 423.699,364.836 423.699,317.768 470.768,317.768
                     470.768,294.233 423.699,294.233 423.699,247.165 400.164,247.165 400.164,294.233 353.068,294.233     "/>
                   <path d="M612,306C612,137.004,474.995,0,306,0C137.004,0,0,137.004,0,306c0,168.995,137.004,306,306,306
                     C474.995,612,612,474.995,612,306z M27.818,306C27.818,152.36,152.36,27.818,306,27.818S584.182,152.36,584.182,306
