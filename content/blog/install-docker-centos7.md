@@ -39,7 +39,7 @@ title = "شیوه نصب داکر روی لینوکس CentOS 7"
 
 1. با اجرای دستور زیر میتوانید مطمئن شوید که نصب به درستی انجام شده است:
 
-        sudo docker run hello-world
+        sudo docker run hub.elastico.io/library/hello-world
 
 *اگر به هنگام اجرای کانتینرها با مشکلاتی برای دانلود image ها از Docker Hub مواجه شدید، میتوانید با تنظیم یک mirror به صورتی که در [این گروه](https://groups.google.com/forum/#!topic/software-taak/xRmFWrozRoo) گفته شده، دوباره این کار را امتحان کنید.*
 
@@ -74,7 +74,7 @@ title = "شیوه نصب داکر روی لینوکس CentOS 7"
 
 1. با اجرای دستور زیر میتوانید مطمئن شوید همه چیز به درستی انجام شده است:
 
-        docker run hello-world
+        docker run hub.elastico.io/library/hello-world
 
 برای آشنایی بیشتر با این فناوری میتوانید مقاله های [مفاهیم پایه ای داکر](http://elastico.io/blog/docker-basic-concepts.html) و [دستورات پرکاربرد داکر](http://elastico.io/blog/useful-docker-commands.html) را مطالعه کنید.
 
