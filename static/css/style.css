@@ -339,11 +339,11 @@ footer .menu-item a:hover {
     margin: 0 auto;
     height: 80px;
     max-width: 1000px;
-    padding-left: 7%;
+    /*padding-left: 7%;*/
     padding-right: 7%;
 }
 #site-title {
-    margin-top: 25px;
+    margin-top: 10px;
     float: right; /********************************************* change to Right ***************************/
 }
 #site-title a {
@@ -351,7 +351,7 @@ footer .menu-item a:hover {
     color: #fff
 }
 #mainmenu {
-    margin-top: 35px;
+    margin-top: 20px;
     float: left; /********************************************* changed to Left ***************************/
 }
 #mainmenu a {
@@ -429,6 +429,26 @@ footer .menu-item a:hover {
     display: table-cell;
     vertical-align: middle
 }
+.elastico-h4 {
+    color: #fff;
+    vertical-align: middle;
+    text-align: center;
+    display: block;
+    font-family: monospace;
+    border: 2px solid darkgrey;
+    max-width: 450px;
+    margin: 30px auto 0;
+}
+.elastico-h1 {
+    color: #fff;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 100px;
+}
+#elastico-logo{
+    float: left;
+    width: 80px;
+}
 .lower,
 input {
     display: none
@@ -469,7 +489,7 @@ article img {
 }
 .lower {
     float: right;
-    margin-top: 28px;
+    margin-top: 10px;
     border: 1px solid #fff;
     padding: 0 .85em;
     border-radius: 30px;

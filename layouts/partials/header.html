@@ -17,6 +17,8 @@
     background-image: url({{ .Site.BaseURL }}/img/texture.png),linear-gradient(to bottom, #009DDC, #006ccb);background-repeat: repeat, no-repeat;background-position: left top, left top;background-size: 100px 100px, 100% 100%;" role="banner">
 {{ end }}
       <section id="branding">
+        <div id="elastico-logo"><a href="/"><img alt="logo"
+           src="../img/logo.png"></a></div>
         <div id="site-title"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></div>
         <nav id="mainmenu">
           <ul>
@@ -45,8 +47,15 @@
         </div>
         <div class="clearfix"></div>
       </section>
-      <div class="post-heading">
-        <h1>{{ if and ($.IsNode) (eq $.Section "") }} بلاگ الستیکو {{ else }}
+
+        {{ if and ($.IsNode) (eq $.Section "") }}
+        <div class="container">
+            <h1 class="elastico-h1">الستیکو </h1>
+            <h4 class="elastico-h4">docker pull hub.elastico.io/library/mysql</h4>
+        </div>
+         {{ else }}
+    <div class="post-heading">
+        <h1>
         {{ .Title }}
           <div class="share-icons-header">
             <a href="http://www.twitter.com/share?url={{ .Permalink }}" target="_blank">
