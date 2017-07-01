@@ -42,11 +42,11 @@ title = "نحوه نصب داکر روی ویندوز"
 
 1. روی Desktop و یا در پوشه Applications ابزار Docker Toolbox را پیدا کنید و آن را اجرا کنید.
 1. این ابزار برای شما یک خط فرمان آماده برای اجرای دستورات داکر باز میکند. اگر سیستم از شما خواست که به VirtualBox اجازه تغییرات در سیستم را بدهید گزینه Yes را انتخاب کنید. این خط فرمان یک محیط `bash` که خاص لینوکس است را در ویندوز برای شما فراهم میکند چون مورد نیاز داکر است.
-1. دستور `docker run hello-world` را تایپ و اجرا کنید.
+1. دستور `docker run hub.elastico.io/library/hello-world` را تایپ و اجرا کنید.
 
 اجرای کامل این دستور مدتی طول میکشد و اگر همه چیز به خوبی پیش برود خروجی زیر را مشاهده میکنید:
 
-	$ docker run hello-world
+	$ docker run hub.elastico.io/library/hello-world
 	Unable to find image 'hello-world:latest' locally
 	Pulling repository hello-world
 	91c95931e552: Download complete
@@ -63,7 +63,7 @@ title = "نحوه نصب داکر روی ویندوز"
 	 4. The Docker Engine daemon streamed that output to the Docker Engine CLI client, which sent it to your terminal.
 
 	To try something more ambitious, you can run an Ubuntu container with:
-	 $ docker run -it ubuntu bash
+	 $ docker run -it hub.elastico.io/library/ubuntu bash
 
 	For more examples and ideas, visit:
 	 https://docs.docker.com/userguide/
