@@ -189,7 +189,8 @@ h1,
 h2,
 h3 {
     letter-spacing: -.01em;
-    word-spacing: .02em
+    word-spacing: .02em;
+    padding-top: 1em;
 }
 h1,
 h1 a,
@@ -285,7 +286,8 @@ a.moretag:hover {
     font-family: Lato, Avenir, HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif
 }
 article p {
-    margin: 1.5rem 0;
+    line-height: 1.7;
+    margin: 0.8rem 0;
     text-align: justify;   /******************************* Full Text Justification ***************************/
     color: inherit
 }
